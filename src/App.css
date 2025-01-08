@@ -1,0 +1,36 @@
+#root {
+  color: black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.bucket-list {
+  border: 1px solid black;
+  padding: 5px 25px;
+  width: max(50%);
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.bucket-list > ol {
+  margin: 0;
+  padding: 0;
+}
+
+.scoreboard {
+  border: 1px solid black;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.scoreboard > h2 {
+  
+}
